@@ -1,8 +1,8 @@
 {
-  "name": "Taco Finder",
+  "name": "Getting Started Example",
   "version": "1.0",
-  "description": "Find a place to eat tacos near you",
-  "permissions": ["activeTab", "declarativeContent", "storage", "geolocation"],
+  "description": "Build an Extension!",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
   "options_page": "options.html",
   "background": {
     "scripts": ["background.js"],
