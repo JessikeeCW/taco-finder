@@ -1,13 +1,18 @@
 body {
     min-width: 350px;
     max-width: 100%;
-    background-color: snow;
+    /* background-color:snow; */
+    background-image: url("https://www.netclipart.com/pp/m/8-81605_taco-clipart-png-cartoon-taco-transparent-background.png");
+}
+
+a {
+    text-decoration: none;
 }
 
 #titlequest {
     font-family: "Times New Roman", Times, serif;
     text-align: center;
-    
+
 }
 
 .option {
@@ -17,6 +22,40 @@ body {
     border-color: seashell;
 }
 
-form {
-    flex-direction: row;
+#nameoftheplace {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: "Times New Roman", Times, serif;
+    font-stretch: expanded;
+
+}
+
+#ratingoftheplace {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-stretch: expanded;
+    position: absolute;
+    left: 10px;
+    top: 115px;
+}
+
+#numberoftheplace {
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 0px 0.5px #542C14;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-stretch: expanded;
+
+}
+
+#Tago {
+    text-align: right;
+    position: absolute;
+    right: 30px;
+    top: 80px;
+
 }
