@@ -1,0 +1,22 @@
+body {
+    min-width: 350px;
+    max-width: 100%;
+    background-color: snow;
+}
+
+#titlequest {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    
+}
+
+.option {
+    border-width: 350px;
+    border-style: outset;
+    border-width: 0.5px;
+    border-color: seashell;
+}
+
+form {
+    flex-direction: row;
+}
